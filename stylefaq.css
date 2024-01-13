@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #172F5C;
+}
+
+.body {
+    background: rgba(23, 47, 92, 1);
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #172F5C;
+    position: sticky;
+}
+
+.logo {
+    width: 100x;
+    cursor: pointer;
+    color: #fff;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 16px;
+}
